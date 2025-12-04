@@ -1,0 +1,239 @@
+1  <!DOCTYPE html>
+2  <html lang="en">
+3  <head>
+4      <meta charset="UTF-8">
+5      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+6      <title>CTN Policy Institute – Change The Narrative</title>
+7
+8      <style>
+9          body {
+10             margin: 0;
+11             font-family: Arial, Helvetica, sans-serif;
+12             background: #f8f9fa;
+13             color: #222;
+14         }
+15
+16         /* Header */
+17         header {
+18             background: white;
+19             display: flex;
+20             justify-content: space-between;
+21             padding: 20px 40px;
+22             align-items: center;
+23             box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+24             position: sticky;
+25             top: 0;
+26             z-index: 100;
+27         }
+28
+29         header h1 {
+30             margin: 0;
+31             font-size: 22px;
+32             font-weight: 700;
+33             color: #1a1a1a;
+34         }
+35
+36         /* Nav Links */
+37         nav a {
+38             margin-left: 20px;
+39             text-decoration: none;
+40             color: #444;
+41             font-weight: 600;
+42         }
+43
+44         /* ===== ADDITION: Active nav link style ===== */
+45         nav a.active {
+46             color: white;
+47             background: linear-gradient(90deg, #003b73, #0074d9);
+48             padding: 6px 10px;
+49             border-radius: 6px;
+50             box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+51         }
+52
+53         /* Hero Section */
+54         .hero {
+55             background: linear-gradient(to right, #003b73, #0074d9);
+56             color: white;
+57             text-align: center;
+58             padding: 120px 20px;
+59         }
+60
+61         .hero h2 {
+62             font-size: 42px;
+63             margin-bottom: 10px;
+64         }
+65
+66         .hero p {
+67             font-size: 18px;
+68             margin-bottom: 30px;
+69             line-height: 1.6;
+70         }
+71
+72         .hero button {
+73             background: white;
+74             color: #003b73;
+75             border: none;
+76             padding: 15px 30px;
+77             font-size: 18px;
+78             border-radius: 5px;
+79             cursor: pointer;
+80             font-weight: 700;
+81         }
+82
+83         /* About Section */
+84         .section {
+85             padding: 70px 40px;
+86             max-width: 1000px;
+87             margin: auto;
+88         }
+89
+90         .section h3 {
+91             font-size: 30px;
+92             margin-bottom: 20px;
+93             text-align: center;
+94         }
+95
+96         .section p {
+97             font-size: 18px;
+98             line-height: 1.7;
+99             text-align: center;
+100        }
+101
+102        /* Focus Areas */
+103        .cards {
+104            display: grid;
+105            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+106            gap: 25px;
+107            margin-top: 40px;
+108        }
+109
+110        .card {
+111            background: white;
+112            padding: 25px;
+113            border-radius: 10px;
+114            box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+115            text-align: center;
+116        }
+117
+118        .card h4 {
+119            margin-bottom: 10px;
+120            font-size: 20px;
+121        }
+122
+123        /* Footer */
+124        footer {
+125            background: #222;
+126            color: white;
+127            padding: 40px 20px;
+128            text-align: center;
+129            margin-top: 60px;
+130        }
+131
+132        footer p {
+133            margin: 5px 0;
+134        }
+135
+136    </style>
+137 </head>
+138
+139 <body>
+140
+141 <header>
+142     <h1>CTN Policy Institute</h1>
+143     <nav>
+144         <a href="#about">About</a>
+145         <a href="#focus">Focus Areas</a>
+146         <a href="#contact">Contact</a>
+147     </nav>
+148 </header>
+149
+150 <section class="hero">
+151     <h2>Change The Narrative</h2>
+152     <p>
+153         A forward-thinking policy institute dedicated to reshaping public discourse,  
+154         driving evidence-based solutions, and empowering Africa’s next generation of thinkers.
+155     </p>
+156     <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+157         Get Involved
+158     </button>
+159 </section>
+160
+161 <section id="about" class="section">
+162     <h3>About Us</h3>
+163     <p>
+164         CTN Policy Institute is committed to advancing innovative policy research,  
+165         promoting accountable governance, and driving public engagement.  
+166         Our mission is simple: **change the narrative** through facts, ideas, and action.
+167     </p>
+168 </section>
+169
+170 <section id="focus" class="section">
+171     <h3>Our Focus Areas</h3>
+172
+173     <div class="cards">
+174         <div class="card">
+175             <h4>Governance & Accountability</h4>
+176             <p>Strengthening democratic systems through policy research and civic engagement.</p>
+177         </div>
+178
+179         <div class="card">
+180             <h4>Youth Empowerment</h4>
+181             <p>Equipping young people with the knowledge and tools to lead policy change.</p>
+182         </div>
+183
+184         <div class="card">
+185             <h4>Economic Development</h4>
+186             <p>Promoting sustainable growth through data-driven economic policy analysis.</p>
+187         </div>
+188
+189         <div class="card">
+190             <h4>Social Innovation</h4>
+191             <p>Supporting creative solutions to social challenges across Africa.</p>
+192         </div>
+193     </div>
+194 </section>
+195
+196 <section id="contact" class="section">
+197     <h3>Contact Us</h3>
+198     <p>Email: <strong>ctnpolicyinstitute@gmail.com</strong></p>
+199     <p>Social media coming soon.</p>
+200 </section>
+201
+202 <footer>
+203     <p>© 2025 CTN Policy Institute</p>
+204     <p>Change The Narrative</p>
+205 </footer>
+206
+207 <!-- ===== ADDITION: Active tab JavaScript ===== -->
+208 <script>
+209     const navLinks = document.querySelectorAll('nav a[href^="#"]');
+210     const sections = Array.from(document.querySelectorAll('section[id]'));
+211
+212     function updateActiveLink() {
+213         const scrollPos = window.scrollY + 140;
+214         let currentId = sections[0] ? sections[0].id : '';
+215
+216         for (const sec of sections) {
+217             if (sec.offsetTop <= scrollPos && (sec.offsetTop + sec.offsetHeight) > scrollPos) {
+218                 currentId = sec.id;
+219                 break;
+220             }
+221         }
+222
+223         navLinks.forEach(link => {
+224             const linkTarget = link.getAttribute('href').slice(1);
+225             if (linkTarget === currentId) {
+226                 link.classList.add('active');
+227             } else {
+228                 link.classList.remove('active');
+229             }
+230         });
+231     }
+232
+233     window.addEventListener('scroll', updateActiveLink);
+234     window.addEventListener('load', updateActiveLink);
+235     window.addEventListener('resize', updateActiveLink);
+236 </script>
+237
+238 </body>
+239 </html>
