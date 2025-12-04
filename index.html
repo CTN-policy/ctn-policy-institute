@@ -192,7 +192,37 @@ nav a.active {
 </section>
 
 <section id="contact" class="section">
-    <h3>Contact Us</h3>
+    <h3>Contact Us</h3><!-- ===== add this script ===== -->
+<script>
+  // find all links that point to sections on the page
+  const navLinks = document.querySelectorAll('nav a[href^="#"]');
+  const sections = Array.from(document.querySelectorAll('section[id]'));
+
+  function updateActiveLink() {
+    const scrollPos = window.scrollY + 140; // little offset to match header height
+    let currentId = sections[0] ? sections[0].id : ''; // default
+
+    for (const sec of sections) {
+      if (sec.offsetTop <= scrollPos && (sec.offsetTop + sec.offsetHeight) > scrollPos) {
+        currentId = sec.id;
+        break;
+      }
+    }
+
+    navLinks.forEach(link => {
+      const linkTarget = link.getAttribute('href').slice(1); // remove '#'
+      if (linkTarget === currentId) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', updateActiveLink);
+  window.addEventListener('load', updateActiveLink);
+  window.addEventListener('resize', updateActiveLink);
+</script>
     <p>Email: <strong>ctnpolicyinstitute@gmail.com</strong></p>
     <p>Social media coming soon.</p>
 </section>
