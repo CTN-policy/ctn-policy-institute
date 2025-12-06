@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Publications & Articles"
+---
+
+<section class="articles-hero">
+  <h2>Publications</h2>
+  <p>Insights, commentary and analysis from CTN Policy Institute.</p>
+</section>
+
+<main class="articles-container">
+  <div class="articles-grid">
+    {% for post in site.posts %}
+      <article class="article-card">
+        <div class="article-meta">{{ post.date | date: "%B %d, %Y" }} • {{ post.categories | first }}</div>
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+        <p><a href="{{ site.baseurl }}{{ post.url }}">Read more →</a></p>
+      </article>
+    {% endfor %}
+  </div>
+</main>
