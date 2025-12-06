@@ -1,0 +1,15 @@
+title: "CTN Policy Institute"
+description: "Change The Narrative"
+baseurl: "/ctn-policy-institute"
+url: "https://ctn-policy.github.io"
+
+theme: minima
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  posts:
+    output: true
