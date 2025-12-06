@@ -7,8 +7,7 @@ categories: Commentary
 excerpt: "Infrastructure, governance reform and technology are essential if Africa’s promise is to become real and not just a rhetoric."
 hero_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/hero-article.jpg
 author_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/author-timothy.jpg
-author_bio: "Executive Director, CTN Policy Institute. 
-Lawyer | Public policy and governance aficionado."
+author_bio: "Executive Director, CTN Policy Institute. Lawyer | Public policy and governance aficionado."
 ---
 
 For more than a decade, the slogan *“Africa Rising”* has dominated global development conversations, investment summits, and philanthropic gatherings. It has inspired hope, reshaped perceptions, and positioned the continent as a frontier of opportunity. But beneath this optimism lies a difficult reality: Africa cannot rise on inspirational language alone. Unless the continent rebuilds its infrastructure, modernises governance systems, and embraces technology at scale, the promise of continental transformation will remain more rhetorical than real.
