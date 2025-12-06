@@ -2,12 +2,12 @@
 layout: post
 title: "Africa’s Development at Crossroads: Why “Africa Rising” Risks Remaining a Rhetoric"
 date: 2025-12-06
-author: "Timothy Omondi Amenya"
-categories: policy
+author: "Timothy Omondi"
+categories: Commentary
 excerpt: "Infrastructure, governance reform and technology are essential if Africa’s promise is to become real and not just a rhetoric."
 hero_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/hero-article.jpg
 author_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/author-timothy.jpg
-author_bio: "Executive Director, CTN Policy Institute. Public policy and governance specialist focusing on institutional reform, youth development, and inclusive growth in Africa."
+author_bio: "Executive Director, CTN Policy Institute. Lawyer | Public policy and governance aficionado."
 ---
 
 For more than a decade, the slogan *“Africa Rising”* has dominated global development conversations, investment summits, and philanthropic gatherings. It has inspired hope, reshaped perceptions, and positioned the continent as a frontier of opportunity. But beneath this optimism lies a difficult reality: Africa cannot rise on inspirational language alone. Unless the continent rebuilds its infrastructure, modernises governance systems, and embraces technology at scale, the promise of continental transformation will remain more rhetorical than real.
@@ -26,7 +26,7 @@ Africa’s development challenges are deeply linked to the strength of its gover
 
 Public institutions in many countries remain slow, unpredictable, and overly bureaucratic, discouraging both domestic and foreign investment. Public finance systems often lack transparency, resulting in leakages and inefficient allocation of resources. Frequent policy shifts tied to political cycles undermine long-term planning, while low levels of accountability erode public trust.
 
-Successful economies do not depend on powerful individuals; they depend on strong, reliable institutions. For Africa to accelerate development, governance reform must become a central pillar—not a peripheral aspiration.
+Successful economies do not depend on powerful individuals; they depend on strong, reliable institutions. For Africa to accelerate development, governance reform must become a central pillar not a peripheral aspiration.
 
 ## Technology: The Engine of Africa’s Future Competitiveness
 
@@ -46,6 +46,6 @@ The global economic order is evolving quickly. If Africa continues to approach 2
 
 ## Unlocking Real Transformation
 
-Africa’s potential is immense—demographically, economically, and creatively. But potential without systems is simply untapped opportunity.
+Africa’s potential is immense demographically, economically, and creatively. But potential without systems is simply untapped opportunity.
 
 True transformation will require deliberate investment in infrastructure that supports regional trade and industrialisation, governance systems that attract and sustain investment, and technological adoption that empowers the continent to compete globally. Only through this integrated approach can Africa shift from a narrative of promise to a reality of progress.
