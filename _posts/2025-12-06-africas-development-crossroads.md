@@ -5,7 +5,7 @@ date: 2025-12-06
 author: "Timothy Omondi Amenya"
 categories: policy
 excerpt: "Infrastructure, governance reform and technology are essential if Africa’s promise is to become real and not just a rhetoric."
-hero_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/hero-article.png
+hero_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/hero-article.jpg
 author_image: https://ctn-policy.github.io/ctn-policy-institute/assets/images/author-timothy.jpg
 author_bio: "Executive Director, CTN Policy Institute. Public policy and governance specialist focusing on institutional reform, youth development, and inclusive growth in Africa."
 ---
